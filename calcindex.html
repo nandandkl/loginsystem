@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        </style>
+    <link rel="stylesheet" href="calcstyle.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <img class="wave" src="calcimg.png" alt="">
+    <div class="container">
+        <div class="img">
+            <img src="calculator.png" alt="">
+        </div>
+
+
+        <div class="calculator-container">
+
+
+            <div class="calculator">
+
+                <img class="avatar" src="calcavatar.jpg" alt="">
+                <h2>Welcome!</h2>
+
+                <div class="calculator-display" id="display">0</div>
+                <div class="calculator-buttons">
+                    <div class="calculator-button" onclick="appendToDisplay('7')">7</div>
+                    <div class="calculator-button" onclick="appendToDisplay('8')">8</div>
+                    <div class="calculator-button" onclick="appendToDisplay('9')">9</div>
+                    <div class="calculator-button" id="mains" onclick="appendToDisplay('/')">/</div>
+                    <div class="calculator-button" onclick="appendToDisplay('4')">4</div>
+                    <div class="calculator-button" onclick="appendToDisplay('5')">5</div>
+                    <div class="calculator-button" onclick="appendToDisplay('6')">6</div>
+                    <div class="calculator-button" id="mains" onclick="appendToDisplay('*')">x</div>
+                    <div class="calculator-button" onclick="appendToDisplay('1')">1</div>
+                    <div class="calculator-button" onclick="appendToDisplay('2')">2</div>
+                    <div class="calculator-button" onclick="appendToDisplay('3')">3</div>
+                    <div class="calculator-button" id="mains" onclick="appendToDisplay('-')">-</div>
+                    <div class="calculator-button" id="mains" onclick="clearDisplay()">C</div>
+                    <div class="calculator-button" onclick="appendToDisplay('0')">0</div>
+                    <div class="calculator-button" id="mains" onclick="appendToDisplay('.')">.</div>
+                    <div class="calculator-button" id="mains" onclick="appendToDisplay('+')">+</div>
+                    
+                </div>
+                <button class="btn" onclick="calculate()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <script src="calcscript.js"></script>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
