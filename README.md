@@ -38,9 +38,9 @@ Follow these steps to set up the project locally:
 # 🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a feature branch.
-Submit a pull request with your changes.
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a pull request with your changes.
 
 
 # 💬 Feedback
